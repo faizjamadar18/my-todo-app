@@ -1,0 +1,5 @@
+@import "tailwindcss";
+.todos{
+    scrollbar-width: none;
+    will-change: transform;
+}
