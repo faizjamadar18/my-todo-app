@@ -86,7 +86,7 @@ function App() {
     <div className="main w-full h-screen">
       <Navbar />
       <div className="container mx-auto my-10 w-[80%] sm:w-lg h-[85vh] shadow-2xl bg-white relative">
-        <header className="sm:text-2xl text-xl font-bold flex justify-center sm:p-5 p-2 break-words text-center " >TaskMate - Smart Way to Manage Todos</header>
+        <header className="sm:text-2xl text-xl font-bold flex justify-center p-5 break-words text-center " >TaskMate - Smart Way to Manage Todos</header>
         <div className="addtodo flex justify-center gap-0 sm:mx-auto mx-3">
           <input onChange={handleChange} value={todo} placeholder='Add your Todo' className=' border-1 border-black w-[75%] p-2.5' type="text" />
           <button onClick={handleAdd} disabled={todo.length <= 1} className="bg-[#8E49E8] text-white text-2xl px-5 py-2 cursor-pointer hover:bg-[#7134c2]  disabled:bg-[#8E49E8] "><FaPlus /></button>
